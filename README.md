@@ -46,7 +46,7 @@ This project uses Python 3.6.3. The following libraries are necessary for runnin
 
 # Project Motivation <a name="motivation"></a>
 
-Nowadays we are surrounded by new technologies, where we only need to look at self-driving cars to realize that the future is approaching fast. One of the main reasons I started this project was to understand al least the basics concepts of Deep Learnig ad Neural Networks, and how it is so useful in real life. 
+Nowadays we are surrounded by new technologies that makes us think the future is approaching so fast, self-driving cars, chat-bots, sentiment algorithms, recommendation systems, and much more, are just some examples about how fast this field is growing. One of the main reasons I started this project was to understand al least the basics concepts of Deep Learnig and Neural Networks, and how this could be applied to probles and opportunities in real life. 
 
 On the other hand, another main motivation was to apply all the knowledge from the Udacity DSNP. It was challenging at first, but after trying and making mistakes (and fixing them), the final goal was achived. 
 
@@ -87,8 +87,18 @@ The structure of the notebook is as follows:
 
 # Results <a name="results"></a>
 
-The most important result is the web app that was created. In the "plot" folder you can see the interface and how it works. You can also see the notebooks to get more details.
+The most important result of this project are in this medium post, where I explain step by step all the process from scrath in a simple way.
 
+In summary the model is able to classiffy correctly between dogs and humans and then assing a proper breed; and when it is not one of those (dog or human), the model quickly shows a message that the image is neither a dog nor human picture.
+
+![image](https://user-images.githubusercontent.com/49656060/129087896-bc5897de-cec5-4b45-8a73-27aa91702995.png)
+
+![image](https://user-images.githubusercontent.com/49656060/129088026-b67ac526-7f5e-4164-9f50-a9b59192e703.png)
+
+![image](https://user-images.githubusercontent.com/49656060/129088058-42dab17b-aacf-4428-acba-a87333d2a3d0.png)
+
+
+The final accuracy of the model is 79.19%, which means is good but not great. If we want to enhaced the performance we could applied different approaches like using more efficient algorithms such as EfficientNet, balancing the original datasets, etc.
 
 
 # Licensing, Authors, Acknowledgements <a name="licensing"></a>
