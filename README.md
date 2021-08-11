@@ -7,7 +7,6 @@
 5. [Results](#results)
 6. [Licensing, Authors, and Acknowledgements](#licensing)
 
-
 ---
 
 # Overview <a name="overview"></a>
@@ -46,9 +45,9 @@ This project uses Python 3.6.3. The following libraries are necessary for runnin
 
 # Project Motivation <a name="motivation"></a>
 
-Nowadays we are surrounded by new technologies that makes us think the future is approaching so fast, self-driving cars, chat-bots, sentiment algorithms, recommendation systems, and much more, are just some examples about how fast this field is growing. One of the main reasons I started this project was to understand al least the basics concepts of Deep Learnig and Neural Networks, and how this could be applied to probles and opportunities in real life. 
+Nowadays we are surrounded by new technologies that makes us think the future is approaching so fast, self-driving cars, chat-bots, sentiment algorithms, recommendation systems, and much more, are just some examples about how fast this field is growing. One of the main reasons I started this project was for understanding al least the basics concepts of Deep Learnig and Neural Networks, and how this could be applied to problems and opportunities in real life. 
 
-On the other hand, another main motivation was to apply all the knowledge from the Udacity DSNP. It was challenging at first, but after trying and making mistakes (and fixing them), the final goal was achived. 
+On the other hand, another reason was to apply all the knowledge from the Udacity DSNP that I recently acquired. It was challenging at first, but after trying and making mistakes (and fixing them), the final goal was achived. 
 
 
 # File Descriptions <a name="files"></a>
@@ -87,7 +86,7 @@ The structure of the notebook is as follows:
 
 # Results <a name="results"></a>
 
-The most important result of this project are in this medium post, where I explain step by step all the process from scrath in a simple way.
+The most important result of this project are in this [medium post](https://medium.com/), where I explain step by step all the process from scrath in a simple way.
 
 In summary the model is able to classiffy correctly between dogs and humans and then assing a proper breed; and when it is not one of those (dog or human), the model quickly shows a message that the image is neither a dog nor human picture.
 
@@ -98,7 +97,7 @@ In summary the model is able to classiffy correctly between dogs and humans and 
 ![image](https://user-images.githubusercontent.com/49656060/129088058-42dab17b-aacf-4428-acba-a87333d2a3d0.png)
 
 
-The final accuracy of the model is 79.19%, which means is good but not great. If we want to enhaced the performance we could applied different approaches like using more efficient algorithms such as EfficientNet, balancing the original datasets, etc.
+The final accuracy of the model is 79.19%, which means is good but not great. If we want to enhaced the performance we could applly different approaches like using more efficient algorithms (such as EfficientNet), balancing the original datasets, including pics with noise to the training dataset, etc.
 
 
 # Licensing, Authors, Acknowledgements <a name="licensing"></a>
