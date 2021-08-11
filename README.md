@@ -41,7 +41,7 @@ This project uses Python 3.6.3. The following libraries are necessary for runnin
 
 3. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip). Unzip the folder and prepare images for the face detector model.
 
-> We highly recommend to you can instalL all of the programs from above in a virtual environment like conda or venv 
+> I highly recommend working on virtual environments as [conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment) or [venv](https://docs.python.org/3.6/library/venv.html) 
 
 
 # Project Motivation <a name="motivation"></a>
@@ -53,7 +53,7 @@ On the other hand, another main motivation was to apply all the knowledge from t
 
 # File Descriptions <a name="files"></a>
 
-The following is the distribution of the most important files
+The following is the distribution of the files inside this repo.
 
 ```
 cnn_dog_breed_classifier
@@ -74,9 +74,7 @@ cnn_dog_breed_classifier
     |-- extract_bottleneck_features.py
 
 ```
-Inside the notebook the structure is as follows:
-
-The project is divided into 7 steps:
+The structure of the notebook is as follows:
 
     - Intro
     - Step 0: Import Datasets
@@ -91,58 +89,9 @@ The project is divided into 7 steps:
 
 The most important result is the web app that was created. In the "plot" folder you can see the interface and how it works. You can also see the notebooks to get more details.
 
-Getting started: 
-
-1) Clone this repository and unzip the model 
-```
-git clone https://github.com/alexrop/disaster_response_figure_eight.git
-```
-then go to the models folder and unzip the classifier.pkl which is contain in a rar format (100 mb approx)
-
-2) Run the program
-
-```
-python run.py
-```
-
-3) Web App interface
-
-On terminal type: 
-```
-env|grep WORK
-```
-
-Then go to the following address by completing with your own *SPACEDOMAIN* and *SPACEID*. For example, in my case was *https://view6914b2f4-3001.udacity-student-workspaces.com/*
-
-```
-https://SPACEID-3001.SPACEDOMAIN
-```
-
-![image](https://user-images.githubusercontent.com/49656060/127645094-0378c288-2c4f-45c6-b7c6-f97c98b4030e.png)
-
-![image](https://user-images.githubusercontent.com/49656060/127645147-937699e0-846f-4bf3-8254-f2268efeb15d.png)
-
-
-Now, if you want to re-execute the `process_data.py` and `train_classifier.py` scripts, you must follow this nomenclature:
-
-```
-python process_data.py disaster_messages.csv disaster_categories.csv disaster_process_data.db
-```
-
-```
-python train_classifier.py ../data/disaster_process_data.db classifier.pkl
-```
->The last one (train_classifier.py) takes around 2 h aprox to be completed
-
-
-On the other hand, if you need more details about the ETL and ML Pipeline process, check the *notebook* folder,  where you can find a "step-by-step" explination about how we generate the final database and model.
-
-> Note: This project was made on the *Udacity Project Workspace IDE platform* (Ubuntu based) so it might be some differences if you run it on Windows. Check that the package versions are the same that mine as I showed you above.
-
-![image](https://user-images.githubusercontent.com/49656060/127631805-febda984-8554-4906-9c81-efd6525f2c04.png)
 
 
 # Licensing, Authors, Acknowledgements <a name="licensing"></a>
 
-All data here belongs to the [Figure Eight](https://appen.com/) company, and it was provided by the [Udacity](https://www.udacity.com/course/data-scientist-nanodegree--nd025) team.
+All data and guidelines here were provided by [Udacity](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
 Author: Alexander Ulloa Opazo
