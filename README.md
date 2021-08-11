@@ -103,4 +103,5 @@ The final accuracy of the model is 79.19%, which means is good but not great. If
 # Licensing, Authors, Acknowledgements <a name="licensing"></a>
 
 All data and guidelines here were provided by [Udacity](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
+
 Author: Alexander Ulloa Opazo
