@@ -13,6 +13,18 @@
 
 In this project we apply real Deep Learning conncepts to build a pipeline to process real-world, user-supplied images. Given an image of a dog, the Convolutional Neural Networks (CNN) model will be able identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed.
 
+### Problem
+ 
+We need to classify the breed of a dog given an RGB image of a dog. If the image shows a human, we need to know the breed that is most similar to this human. Finally, if the image is neither a dog nor a human, the model must warn us about it because it can't be processed. 
+  
+### Metrics
+
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score 
+
+For more info about these metrics, check this [post](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)
 
 # Installation <a name="installation"></a>
 
@@ -97,7 +109,13 @@ In summary the model is able to classiffy correctly between dogs and humans and 
 ![image](https://user-images.githubusercontent.com/49656060/129088058-42dab17b-aacf-4428-acba-a87333d2a3d0.png)
 
 
-The final accuracy of the model is 79.19%, which means is good but not great. If we want to enhaced the performance we could applly different approaches like using more efficient algorithms (such as EfficientNet), balancing the original datasets, including pics with noise to the training dataset, etc.
+The final accuracy of the model is 79.19%, which means is good but not great. If we want to enhaced the performance we could apply different approaches like using more efficient algorithms (such as EfficientNet), balancing the original datasets, including pics with noise to the training dataset, etc.
+
+Below you can see more metrics
+
+| precision | recall |	f1-score |
+|---|---|---|
+|0.83452	| 0.79187	| 0.78658
 
 
 # Licensing, Authors, Acknowledgements <a name="licensing"></a>
