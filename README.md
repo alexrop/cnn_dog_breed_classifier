@@ -102,11 +102,11 @@ The most important result of this project are in this [medium post](https://medi
 
 In summary the model is able to classiffy correctly between dogs and humans; and then assing a proper breed; and when it is not one of those (dog or human), the model quickly shows a message that the input is neither a dog nor human picture.
 
-![image](https://user-images.githubusercontent.com/49656060/129087896-bc5897de-cec5-4b45-8a73-27aa91702995.png)
+![image](https://user-images.githubusercontent.com/49656060/129359660-656fcaf7-52e5-4973-8153-e485c72dc70a.png)
 
-![image](https://user-images.githubusercontent.com/49656060/129088026-b67ac526-7f5e-4164-9f50-a9b59192e703.png)
+![image](https://user-images.githubusercontent.com/49656060/129384330-b89a82d4-9b90-416b-811f-89b938ceb868.png)
 
-![image](https://user-images.githubusercontent.com/49656060/129088058-42dab17b-aacf-4428-acba-a87333d2a3d0.png)
+![image](https://user-images.githubusercontent.com/49656060/129384369-c255ca75-a9de-45d4-b5cf-fa6c316317cd.png)
 
 
 The final accuracy of the model is 81.82%, which means is good but not great. If we want to enhaced the performance we could apply different approaches like using more efficient algorithms, balancing the original datasets, including pics with noise to the training dataset, etc.
