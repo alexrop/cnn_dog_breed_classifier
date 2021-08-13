@@ -100,7 +100,7 @@ The structure of the notebook is as follows:
 
 The most important result of this project are in this [medium post](https://medium.com/), where I explain step by step all the process from scrath in a simple way.
 
-In summary the model is able to classiffy correctly between dogs and humans and then assing a proper breed; and when it is not one of those (dog or human), the model quickly shows a message that the image is neither a dog nor human picture.
+In summary the model is able to classiffy correctly between dogs and humans; and then assing a proper breed; and when it is not one of those (dog or human), the model quickly shows a message that the input is neither a dog nor human picture.
 
 ![image](https://user-images.githubusercontent.com/49656060/129087896-bc5897de-cec5-4b45-8a73-27aa91702995.png)
 
