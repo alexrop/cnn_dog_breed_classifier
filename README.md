@@ -109,13 +109,13 @@ In summary the model is able to classiffy correctly between dogs and humans; and
 ![image](https://user-images.githubusercontent.com/49656060/129088058-42dab17b-aacf-4428-acba-a87333d2a3d0.png)
 
 
-The final accuracy of the model is 79.19%, which means is good but not great. If we want to enhaced the performance we could apply different approaches like using more efficient algorithms (such as EfficientNet), balancing the original datasets, including pics with noise to the training dataset, etc.
+The final accuracy of the model is 81.82%, which means is good but not great. If we want to enhaced the performance we could apply different approaches like using more efficient algorithms, balancing the original datasets, including pics with noise to the training dataset, etc.
 
 Below you can see more metrics
 
 | precision | recall |	f1-score |
 |---|---|---|
-|0.83452	| 0.79187	| 0.78658
+| 0.83882	| 0.81818	| 0.81550 |
 
 
 # Licensing, Authors, Acknowledgements <a name="licensing"></a>
