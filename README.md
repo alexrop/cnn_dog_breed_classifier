@@ -98,7 +98,7 @@ The structure of the notebook is as follows:
 
 # Results <a name="results"></a>
 
-The most important result of this project are in this [medium post](https://medium.com/), where I explain step by step all the process from scrath in a simple way.
+The most important result of this project are in this [medium post](https://medium.com/@alexanderulloa7/convolutional-neural-network-project-step-by-step-deep-learning-3355538d4e8), where I explain step by step all the process from scrath in a simple way.
 
 In summary the model is able to classiffy correctly between dogs and humans; and then assing a proper breed; and when it is not one of those (dog or human), the model quickly shows a message that the input is neither a dog nor human picture.
 
