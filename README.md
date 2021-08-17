@@ -122,4 +122,4 @@ Below you can see more metrics
 
 All data and guidelines here were provided by [Udacity](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
 
-Author: Alexander Ulloa Opazo
+Author: Alexander R. Ulloa Opazo
